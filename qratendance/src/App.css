@@ -1,0 +1,137 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,400;1,700&display=swap');
+
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+
+
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #54C875, #0649A4, #23a6d5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    margin-top: 1em;
+  }
+  
+}
+
+.logo-container .logo {
+  max-width: 10em;
+  height: auto;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #fff !important;
+  color: #fff !important;
+
+}
+
+#outlined-basic-label {
+  color: #fff !important;
+}
+
+.title {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+
+}
+
+.subtitle {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 1em;
+} 
